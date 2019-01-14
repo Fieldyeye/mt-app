@@ -112,7 +112,7 @@ export default {
           return {
             img: item.imgs.length ? item.imgs[0].url : '/logo.png',
             name: item.name,
-            count: 1,
+            count: item.count,
             total: item.total,
             status: item.status,
             statusTxt: item.status === 0 ? '待付款' : '已付款'
@@ -122,7 +122,7 @@ export default {
           return {
             img: item.imgs.length ? item.imgs[0].url : '/logo.png',
             name: item.name,
-            count: 1,
+            count: item.count,
             total: item.total,
             status: item.status,
             statusTxt: item.status === 0 ? '待付款' : '已付款'
